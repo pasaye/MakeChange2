@@ -53,8 +53,30 @@ public class MakeChangeProject {
 		changeReturned -= nickels * .05;
 		pennies = (int)Math.round(changeReturned / .01);
 		
-		System.out.println(twenty + " Twenties " + ten + " Ten(s) " + five +" Five(s) " + dollars + " Dollar(s) " 
-				+ quarters + " Quarter(s) " + dimes + " Dime(s) " + nickels + " Nickel(s) " + pennies + " Pennies");
+		if( twenty != 0 ) {
+			System.out.print(twenty + " twenties ");
+		}
+		if(ten != 0) {
+			System.out.print(ten + " ten(s) ");
+		}
+		if(five != 0) {
+			System.out.print(five + " five(s) ");
+		}
+		if(dollars != 0) {
+			System.out.print(dollars + " dollar(s) ");
+		}
+		if(quarters != 0) {
+			System.out.print(quarters + " quarter(s) ");
+		}
+		if(dimes != 0) {
+			System.out.print(dimes + " dime(s) ");
+		}
+		if(nickels !=0) {
+			System.out.print(nickels + " nickel(s) ");
+		}
+		if(pennies != 0) {
+			System.out.print(pennies + " pennies ");
+		}
 			
 		return changeReturned;
 	} 

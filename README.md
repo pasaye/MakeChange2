@@ -23,6 +23,7 @@ return exact change 9.33 in this form ( 1 five, 4 dollars, 1 quarter, 1 nickel, 
  -Not every solution works: Not every solution to the same bug/issue is going to solve the ones I created in my program. For 
  example, I was having a hard time getting my changedReturned variable to move it's remaining decimals down the code (33 -25 = 8).
  I could get the code to issue the appropriate number of cents returned in the first line, but then the 1 nickel and 3 pennies would
- disappear. Solutions told me to use something like (a = b / n) % .n %.n ) which didn't work for me. ultimately I had to moved around 
- subtraction, multiplication, and Math.round() to fix my issues. However I wouldn't have known to play with operators if I hadn't previously researched other bugs.
+ disappear. Solutions told me to use something like (a = b / n) % .n %.n ) which didn't work for me. Ultimately I had to moved around 
+ subtraction, multiplication, and Math.round() to fix my issues. However I wouldn't have known to play with those operators if I hadn't
+ previously researched other bugs.
   
